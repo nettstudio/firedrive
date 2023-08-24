@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="component" version="3.8.5" method="upgrade">
   <name>COM_FIREDRIVE</name>
-  <author>Giovanni Mansillo</author>
+  <author>Giovanni Mansillo / NettStudio AS</author>
   <creationDate>Feb 2018</creationDate>
-  <copyright>(C) 2014 Giovanni Mansillo. All rights reserved.</copyright>
+  <copyright>(C) Giovanni Mansillo / NettStudio AS. All rights reserved.</copyright>
   <license>GNU General Public License version 3 or later</license>
-  <authorUrl>http://www.firedrive.eu</authorUrl>
+  <authorUrl>https://github.com/nettstudio/firedrive</authorUrl>
   <version>5.2.5</version>
   <description>COM_FIREDRIVE_XML_DESCRIPTION_TEXT</description>
   <scriptfile>script.php</scriptfile>
@@ -66,7 +66,7 @@
       <folder>controllers</folder>
     </files>
   </administration>
-  <updateservers>
+  <!-- <updateservers>
     <server type="extension" priority="1" name="Simple Update Server">http://get.firedrive.eu/update/</server>
-  </updateservers>
+  </updateservers> -->
 </extension>
