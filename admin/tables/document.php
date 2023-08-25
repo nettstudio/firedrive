@@ -29,7 +29,7 @@ class FiredriveTableDocument extends JTable
 		parent::__construct('#__firedrive', 'id', $db);
 
 		// TODO: Check how to fix this in Joomla 4.0 (JTableObserverContenthistory is deprecated)
-		JTableObserverContenthistory::createObserver($this, array('typeAlias' => 'com_firedrive.document'));
+		//JTableObserverContenthistory::createObserver($this, array('typeAlias' => 'com_firedrive.document'));
 
 		$this->created = JFactory::getDate()->toSql();
 		$this->setColumnAlias('published', 'state');
