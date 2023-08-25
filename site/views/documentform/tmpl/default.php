@@ -10,7 +10,6 @@ defined('_JEXEC') or die;
 
 JLoader::register('FiredriveHelper', JPATH_ADMINISTRATOR . '/components/com_firedrive/helpers/firedrive.php');
 
-JHtml::_('behavior.tabstate');
 JHtml::_('behavior.keepalive');
 JHtml::_('behavior.tooltip');
 JHtml::_('formbehavior.chosen', 'select');
