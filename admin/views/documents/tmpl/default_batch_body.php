@@ -14,7 +14,7 @@ $published = $this->state->get('filter.published');
     <div class="row-fluid">
         <div class="control-group span6">
             <div class="controls">
-				<?php echo JHtml::_('batch.language'); ?>
+				<?php echo JLayoutHelper::render('joomla.html.batch.language'); ?>
             </div>
         </div>
     </div>
@@ -22,7 +22,7 @@ $published = $this->state->get('filter.published');
 		<?php if ($published >= 0) : ?>
             <div class="control-group span6">
                 <div class="controls">
-					<?php echo JHtml::_('batch.item', 'com_firedrive'); ?>
+					<?php echo JLayoutHelper::render('joomla.html.batch.item', 'com_firedrive'); ?>
                 </div>
             </div>
 		<?php endif; ?>
